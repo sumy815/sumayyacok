@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> IMAGE SLIDER APP</title>
+</head>
+<body>
+    <img src="images/img.dish1.jpeg" id="def">
+
+    <script type="text/javascript">
+
+    //COLLECTS ALL IMAGES
+     var images= ["images/img.dish0.jpeg","images/img.dish1.jpeg","images/img.dish2.jpeg","images/img.dish3.jpeg","images/img.dish4.jpeg","images/img.dish5.jpeg"];
+
+        //STARTING POSITION
+         var index=0;
+
+        //TIMIMG THE SLIDER
+        var handleTiming = setInterval(slider,1000);   
+
+
+
+//GETS THE ID OF THE DEFAULT IMAGE
+var def = document.getElementById("def");
+
+     //HANDLES SLIDING EFFECT
+        function slider(){
+        def.setAttribute("src",images[index]);
+        index++;
+        if(index > images.length -1){
+            index=0;
+        }
+        }
+      
+        
+    </script>
+    
+</body>
+</html>

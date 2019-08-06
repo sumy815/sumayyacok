@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>javascript form validation</title>
+    <script>
+        function validation(){
+            var name= document.myform.firstname.value;
+            var surname= document.myform.surname.value;
+            var others = document.myform.others.value;
+            var subject = document.myform.subject.value
+            
+            if(name==""){
+                alert("firstname is required");
+                return false;
+                }else if (surname==""){
+                    alert("surname is required");
+                }else if(fullname!==""){
+                    alert("Hello:" + fullname);
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <form method="POST" onsubmit="return validation()" name="myform">
+            <input type="text" placeholder="firstname" name="firstname" required minlength="3"> <br><br>
+            <input type="text" placeholder="surname" name="surname" required minlength="3"> <br><br>
+            <input type="text" placeholder="othername" name="othername"> <br><br>
+            <input type="text" placeholder="subject" name="subject" required minlength="3"> <br><br>
+            <input type="text" placeholder="message" name="message" required minlength="10"> <br><br>
+            <input type="submit" value="validate">
+        </form>
+    </center>
+    
+</body>
+</html>

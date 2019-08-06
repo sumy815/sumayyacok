@@ -1,0 +1,70 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <title>FORM VALIDATION</title>
+   
+    <style>
+    .input-group{
+        margin-bottom: 10px;
+    }
+    </style>
+</head>
+<body onload="loaded();">
+    <!--<script>
+        alert("javascript");
+    </script>-->
+<center>
+    <h1 style="color:indigo">CLICK-ON KADUNA APPLICATION FORM</h1>
+    
+    <form action>
+        <div class="input-group">
+        <label for="name">FULL NAME</label>
+        <input type="text" name="name" id="name">
+        <span id="name-helper">nana</span>                                                                                                         
+        </div>
+
+        <div class="input-group">
+        <label for="sex">SEX</label>
+        <input type="radio" name="sex" id="sex" value="male">MALE
+        <input type="radio" name="sex" id="sex" value="female">FEMALE
+        </div>
+        
+        <div class="input-group">
+        <label for="marital-status">MARITAL STATUS</label>
+        <select name="marital-status" id="marital-status">
+                <option value="SINGLE">SINGLE</option>
+                <option value="MARRIED">MARRIED</option> 
+        </select>
+        </div>
+
+        <div class="input-group">
+                <label for="password">PASSWORD</label>
+                <input type="text" name="password" id="password">
+                                                                                                                     
+                </div>
+
+         <div class="input-group">
+                        <label for="password1">CONFIRM PASSWORD</label>
+                        <input type="text" name="password1" id="password1" onkeypress="pass(this);">                                                                                                         
+                        </div>  
+
+        <div class="input-group">
+            <label for="EMAIL">EMAIL</label>
+            <input type="email" name="EMAIL" id="EMAIL">
+        </div>
+       
+        <div class="input-group">
+            <label for="ADDRESS">ADDRESS</label>
+            <textarea name="ADDRESS" id="ADDRESS" cols="20" rows="5"></textarea>
+        </div>
+        
+        <div class="input-group">
+                <label for="BIO">BIO</label>
+                <textarea name="BIO" id="BIO" cols="20" rows="5"></textarea>
+            </div> 
+    </form>
+</center>
+<script src="script.js"></script>
+</body>
+
+</html>

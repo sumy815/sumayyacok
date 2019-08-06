@@ -1,0 +1,38 @@
+.active {
+    background-color: rgb(243, 107, 107) !important;
+    color: white !important;
+}
+i {
+    color: white;
+    font-size: 40px;
+}
+
+.navb div {
+    display: inline;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    height: 70px;
+    width: 100%;
+}
+footer div {
+    position: relative;
+    top: -20px;
+    float: right;
+}
+
+footer div i {
+    padding:7px !important;
+    margin: 0 10px;
+    /* background-color: white; */
+    border-radius: 30%;
+    font-size: 40px;
+    
+}
+.clear{
+    content: "";
+    display: table;
+    clear: both;
+}

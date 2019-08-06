@@ -1,0 +1,230 @@
+a {
+    color:white;
+    text-decoration: none;
+}
+
+
+.about{
+    padding-top:50px;
+    font-family:cursive
+}
+
+.about1{
+    font-size:30px;
+    font-family:cursive
+}
+
+.button1{
+    background-color:white;
+    border:3px solid crimson;
+    color:crimson;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 100px 2px;
+    padding: 10px 80px;   
+}
+
+.button2{
+    background-color: crimson;
+    border:none;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    padding: 10px 60px; 
+}
+
+.button3{
+    background-color: crimson;
+    border:none;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px 2px;
+    padding: 5px 50px;  
+}
+
+.button4{
+    background-color:white;
+    border:3px solid crimson;
+    color:crimson;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px 2px;
+    padding: 10px 50px;   
+}
+
+.button7{
+    background-color:crimson;
+    border:none;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px 2px;
+    padding: 7px 50px;   
+}
+
+.button5{
+    background-color:crimson;
+    border:none;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 150px 2px;
+    padding: 10px 80px;   
+}
+
+
+.categories{
+    font-size:30px;
+    font-family:cursive
+}
+
+.col{
+    width:50%;
+    float:left;
+    text-align: center;
+}
+
+.cola{
+    width:33.33%;
+    float:left;
+    text-align: center;   
+}
+
+.col2a{
+    text-align:left;
+}
+
+.footer{
+    background-color: crimson;
+    padding:10px;
+    margin-top:20px;
+    height:40px;
+}
+
+.footer h4{
+position:absolute;
+margin-left:600px;
+}
+
+.forgot{
+    text-align: center;
+}
+
+#icons{
+    margin-left:900px;
+}
+
+#icons img{
+    margin:0 30px;
+}
+
+.image1{
+    padding-top: 150px;
+}
+
+.image2{
+    padding-top: 200px;
+}
+
+input[type=date], select{
+    align-content: center;
+    width:80%;
+    height:6%;
+    display:inline-block;
+    border:2px solid black;
+    box-sizing:border-box;
+    padding:12px 20px;
+    margin: 8px 0;
+
+}
+
+input[type=text], select{
+    align-content: center;
+    width:40%;
+    height:6%;
+    display:inline-block;
+    border:2px solid black;
+    box-sizing:border-box;
+    padding:12px 20px;
+    margin: 8px 0;
+
+}
+
+input[type=text1], select{
+    align-content: center;
+    width:80%;
+    height:6%;
+    display:inline-block;
+    border:2px solid black;
+    box-sizing:border-box;
+    padding:12px 20px;
+    margin: 8px 0;
+
+}
+
+input[type=submit], select{
+    align-content: center;
+    width:10%;
+    height:6%;
+    display:inline-block;
+    border:none;
+    box-sizing:border-box;
+    padding:14px 20px;
+    margin: 8px 0;
+    background-color: crimson;
+    color:white
+    
+}
+.main{
+    width:94.75%;
+    margin:50px auto;
+
+}
+
+.payment{
+padding:30px;
+}
+
+.sign-in{
+    padding-top:50px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul{
+    word-spacing:70px;
+    text-align:center;
+    margin-top:0px;
+    font-size:30px;
+    padding:15px;
+}
+
+.your-bg-navbar {
+    background-color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
